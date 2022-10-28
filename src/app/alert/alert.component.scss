@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 20px;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  background: #FFFFFF;
+  height: -webkit-fill-available;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  width: 50%;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  justify-self: stretch;
+  flex-grow: 1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  width: 50%;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 24px;
+  gap: 10px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.clock {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.time-to-go {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FF0000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ticket-counter {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FF3E50;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  height: -webkit-fill-available;
+}
+
+.sv_logo {
+  width: 359px;
+  height: 141px;
+  background: url(../../assets/sv_logo.svg);
+}
